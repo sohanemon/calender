@@ -1,0 +1,29 @@
+section {
+  display: grid;
+  grid-template-columns: repeat(7, auto);
+  gap: 20px;
+  /* justify-items: center; */
+  justify-content: center;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+.day {
+  background-color: #f6fcf6;
+  padding: 20px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: #044275;
+}
+.today {
+  background-color: skyblue;
+}
+.week {
+  background-color: #e8eff1;
+}
+.other {
+  background-color: #fefffe;
+  color: #9bbfdd;
+}
